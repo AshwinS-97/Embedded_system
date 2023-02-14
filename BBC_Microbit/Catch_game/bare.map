@@ -1,0 +1,1263 @@
+Archive member included to satisfy reference by file (symbol)
+
+lib/libbsp.a(startup.o)       (ResetISR)
+lib/libbsp.a(system.o)        lib/libbsp.a(startup.o) (SystemInit)
+lib/libbsp.a(board.o)         main.o (board_init)
+lib/libbsp.a(serial.o)        lib/libbsp.a(board.o) (serial_init)
+lib/libbsp.a(gpio.o)          lib/libbsp.a(board.o) (gpio_in)
+lib/libbsp.a(lib.o)           main.o (sprintf)
+lib/libbsp.a(audio.o)         lib/libbsp.a(board.o) (audio_init)
+lib/libbsp.a(timer.o)         lib/libbsp.a(board.o) (timer_init)
+lib/libbsp.a(pwm.o)           lib/libbsp.a(audio.o) (pwm_init)
+lib/libbsp.a(adc.o)           lib/libbsp.a(audio.o) (adc_init)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+                              lib/libbsp.a(audio.o) (pow)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o) (finite)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o) (__ieee754_pow)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o) (scalbn)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o) (__math_uflow)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o) (fabs)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o) (__ieee754_sqrt)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o) (__errno)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+                              lib/libbsp.a(audio.o) (_ctype_)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o) (_impure_ptr)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o) (__sf)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o) (__sread)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o) (_fwalk_sglue)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o) (_write_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o) (_malloc_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o) (memset)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o) (_fclose_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o) (sysconf)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o) (__malloc_lock)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o) (_close_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o) (errno)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o) (__sflush_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o) (_free_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o) (_lseek_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o) (_read_r)
+/opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o) (_sbrk_r)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+                              lib/libbsp.a(audio.o) (__aeabi_dmul)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o) (__aeabi_dsub)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              lib/libbsp.a(audio.o) (__aeabi_ddiv)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o) (__aeabi_dcmpeq)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+                              /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o) (__aeabi_dcmpun)
+/opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+                              lib/libbsp.a(audio.o) (__aeabi_d2uiz)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .bss.col       0x0000000000000000        0x4 main.o
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(startup.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(startup.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(startup.o)
+ .text.SysTickHandler
+                0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .text.GPIOTE_IRQHandler
+                0x0000000000000000        0xc lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(startup.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(system.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(system.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(system.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(system.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(system.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(board.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(board.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(board.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(board.o)
+ .text.leds_init
+                0x0000000000000000       0x40 lib/libbsp.a(board.o)
+ .text.led_display
+                0x0000000000000000       0x80 lib/libbsp.a(board.o)
+ .text.buttons_init
+                0x0000000000000000       0x18 lib/libbsp.a(board.o)
+ .text.delay_us
+                0x0000000000000000       0x84 lib/libbsp.a(board.o)
+ .text.delay_ms
+                0x0000000000000000       0x10 lib/libbsp.a(board.o)
+ .text.clear_display
+                0x0000000000000000       0x44 lib/libbsp.a(board.o)
+ .text.led_on   0x0000000000000000       0x20 lib/libbsp.a(board.o)
+ .text.led_off  0x0000000000000000       0x20 lib/libbsp.a(board.o)
+ .text.led_glow
+                0x0000000000000000       0x2c lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x3a lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x88 lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(board.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(serial.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(serial.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(serial.o)
+ .text.getc_nowait
+                0x0000000000000000       0x10 lib/libbsp.a(serial.o)
+ .text.getc     0x0000000000000000       0x1c lib/libbsp.a(serial.o)
+ .text.putc_nowait
+                0x0000000000000000        0xc lib/libbsp.a(serial.o)
+ .text.putc     0x0000000000000000       0x1c lib/libbsp.a(serial.o)
+ .text.print_buf
+                0x0000000000000000       0x34 lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000000000       0x3a lib/libbsp.a(serial.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(gpio.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(gpio.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(gpio.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(gpio.o)
+ .text.gpio_write
+                0x0000000000000000       0x38 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x3a lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x88 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(gpio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(lib.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(lib.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(lib.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(lib.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(lib.o)
+ .text.atoi     0x0000000000000000       0x60 lib/libbsp.a(lib.o)
+ .text.xtou     0x0000000000000000       0x40 lib/libbsp.a(lib.o)
+ .text._do_print
+                0x0000000000000000      0x1ec lib/libbsp.a(lib.o)
+ .text.f_storec
+                0x0000000000000000        0xc lib/libbsp.a(lib.o)
+ .text.do_print
+                0x0000000000000000      0x188 lib/libbsp.a(lib.o)
+ .text.printf   0x0000000000000000      0x31c lib/libbsp.a(lib.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(lib.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(lib.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(audio.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(audio.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(audio.o)
+ .text.audio_volume
+                0x0000000000000000        0xc lib/libbsp.a(audio.o)
+ .text.music_init
+                0x0000000000000000       0x80 lib/libbsp.a(audio.o)
+ .text.music_play
+                0x0000000000000000       0xa4 lib/libbsp.a(audio.o)
+ .text.clap_detect
+                0x0000000000000000       0x7c lib/libbsp.a(audio.o)
+ .bss.prev.0    0x0000000000000000        0x8 lib/libbsp.a(audio.o)
+ .bss.samples   0x0000000000000000      0x140 lib/libbsp.a(audio.o)
+ .bss.scale_frequencies
+                0x0000000000000000       0xaa lib/libbsp.a(audio.o)
+ .rodata.note_pos
+                0x0000000000000000        0x7 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x2a lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x3c lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x34 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000      0x189 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x16 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x43 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x34 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000      0x1de lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000      0x369 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x3a lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(audio.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(timer.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(timer.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(timer.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(timer.o)
+ .bss.ticks     0x0000000000000000        0x4 lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(timer.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(pwm.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(pwm.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(pwm.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x7b lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x2a lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x3c lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x34 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x189 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x16 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x43 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x34 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x1de lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000      0x369 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(pwm.o)
+ .debug_macro   0x0000000000000000       0x35 lib/libbsp.a(pwm.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .group         0x0000000000000000        0xc lib/libbsp.a(adc.o)
+ .text          0x0000000000000000        0x0 lib/libbsp.a(adc.o)
+ .data          0x0000000000000000        0x0 lib/libbsp.a(adc.o)
+ .bss           0x0000000000000000        0x0 lib/libbsp.a(adc.o)
+ .text.adc_in   0x0000000000000000       0x30 lib/libbsp.a(adc.o)
+ .text.adc_read
+                0x0000000000000000       0x24 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000      0xaa2 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x22 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x8e lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x51 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000      0x103 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x6a lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000      0x1df lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x7b lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x2a lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x3c lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x34 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000      0x189 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x16 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x43 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x34 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x58 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000      0x1de lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000      0x369 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x35 lib/libbsp.a(adc.o)
+ .debug_macro   0x0000000000000000       0x10 lib/libbsp.a(adc.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+ .text.pow      0x0000000000000000       0xf0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+ .debug_frame   0x0000000000000000       0x44 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-w_pow.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+ .text.finite   0x0000000000000000       0x18 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+ .debug_frame   0x0000000000000000       0x28 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_finite.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+ .text.__ieee754_pow
+                0x0000000000000000      0xbdc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+ .debug_frame   0x0000000000000000       0x7c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_pow.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+ .text.scalbn   0x0000000000000000      0x114 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_scalbn.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.with_errno
+                0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.xflow    0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_uflow
+                0x0000000000000000       0x10 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_may_uflow
+                0x0000000000000000       0x10 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_oflow
+                0x0000000000000000       0x10 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_divzero
+                0x0000000000000000       0x38 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_invalid
+                0x0000000000000000       0x4c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_check_uflow
+                0x0000000000000000       0x38 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text.__math_check_oflow
+                0x0000000000000000       0x44 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .debug_frame   0x0000000000000000      0x14c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-math_err.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+ .text.fabs     0x0000000000000000       0x10 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-s_fabs.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .text.__ieee754_sqrt
+                0x0000000000000000      0x1f4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .data.tiny     0x0000000000000000        0x8 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .data.one      0x0000000000000000        0x8 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .debug_frame   0x0000000000000000       0x38 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-errno.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .text.__set_ctype
+                0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .rodata._ctype_
+                0x0000000000000000      0x101 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-ctype_.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+ .data._impure_data
+                0x0000000000000000      0x120 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-impure.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x0000000000000000       0x18 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x0000000000000000       0x40 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000       0x1c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000       0x1c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x0000000000000000       0xf0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__sfp    0x0000000000000000       0xc0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__sinit  0x0000000000000000       0x3c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .data.__sglue  0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .bss.__sf      0x0000000000000000      0x138 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .debug_frame   0x0000000000000000      0x13c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-findfp.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .text.__sread  0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .text.__swrite
+                0x0000000000000000       0x40 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .text.__sseek  0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .text.__sclose
+                0x0000000000000000        0x8 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .debug_frame   0x0000000000000000       0x8c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-stdio.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x0000000000000000       0x48 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+ .debug_frame   0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fwalk.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+ .text._write_r
+                0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x0000000000000000      0x55c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x0000000000000000       0x28 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .bss.__malloc_max_sbrked_mem
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .data.__malloc_sbrk_base
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .bss.__malloc_top_pad
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .data.__malloc_trim_threshold
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .data.__malloc_av_
+                0x0000000000000000      0x408 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .debug_frame   0x0000000000000000       0x48 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mallocr.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .text.memset   0x0000000000000000       0xa4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x0000000000000000        0x1 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .debug_frame   0x0000000000000000       0xb0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lock.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .text._fclose_r
+                0x0000000000000000       0xc4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .text.fclose   0x0000000000000000       0x10 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .debug_frame   0x0000000000000000       0x3c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fclose.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+ .text.sysconf  0x0000000000000000       0x1c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+ .debug_frame   0x0000000000000000       0x28 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sysconf.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x0000000000000000        0xc /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-mlock.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+ .text._close_r
+                0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0x5c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .bss.errno     0x0000000000000000        0x4 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .debug_frame   0x0000000000000000       0x3c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-reent.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x0000000000000000      0x138 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x0000000000000000       0x54 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x74 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .debug_frame   0x0000000000000000       0x70 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fflush.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .text._malloc_trim_r
+                0x0000000000000000       0xb8 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .text._free_r  0x0000000000000000      0x204 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .debug_frame   0x0000000000000000       0x78 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-freer.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+ .text._read_r  0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o)
+ .text          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x24 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o)
+ .text          0x0000000000000000      0x254 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x0000000000000000       0x30 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldf3.o)
+ .text          0x0000000000000000      0x378 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000000000       0xac /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .text          0x0000000000000000      0x424 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000000000       0x50 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .text          0x0000000000000000      0x110 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000000000       0xc4 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .text          0x0000000000000000       0x2c /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x0000000000000000       0x20 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .text          0x0000000000000000       0x40 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_line_str
+                0x0000000000000000       0xc7 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x0000000000000000       0x24 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_fixunsdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000080000 xr
+SRAM             0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000      0xf74
+ *(.vectors)
+ .vectors       0x0000000000000000      0x200 lib/libbsp.a(startup.o)
+                0x0000000000000000                vector_table
+ *(.text*)
+ .text.update_ball
+                0x0000000000000200       0x38 main.o
+                0x0000000000000200                update_ball
+ .text.button0_debounce
+                0x0000000000000238       0x64 main.o
+                0x0000000000000238                button0_debounce
+ .text.button1_debounce
+                0x000000000000029c       0x68 main.o
+                0x000000000000029c                button1_debounce
+ .text.button0_callback
+                0x0000000000000304       0x20 main.o
+                0x0000000000000304                button0_callback
+ .text.button1_callback
+                0x0000000000000324       0x20 main.o
+                0x0000000000000324                button1_callback
+ .text.led_row_refresh
+                0x0000000000000344       0x7c main.o
+                0x0000000000000344                led_row_refresh
+ .text.startup.main
+                0x00000000000003c0      0x184 main.o
+                0x00000000000003c0                main
+ .text.reset_game
+                0x0000000000000544       0xc8 main.o
+                0x0000000000000544                reset_game
+ .text.update_frame
+                0x000000000000060c       0xdc main.o
+                0x000000000000060c                update_frame
+ .text.UsageFaultHandler
+                0x00000000000006e8        0xc lib/libbsp.a(startup.o)
+ .text.BusFaultHandler
+                0x00000000000006f4        0xc lib/libbsp.a(startup.o)
+ .text.HardFaultHandler
+                0x0000000000000700        0xc lib/libbsp.a(startup.o)
+ .text.IntDefaultHandler
+                0x000000000000070c        0xc lib/libbsp.a(startup.o)
+ .text.ResetISR
+                0x0000000000000718       0xac lib/libbsp.a(startup.o)
+                0x0000000000000718                ResetISR
+ .text.SystemInit
+                0x00000000000007c4       0x30 lib/libbsp.a(system.o)
+                0x00000000000007c4                SystemInit
+ .text.delay_us.constprop.0
+                0x00000000000007f4       0x84 lib/libbsp.a(board.o)
+ .text.board_init
+                0x0000000000000878       0x68 lib/libbsp.a(board.o)
+                0x0000000000000878                board_init
+ .text.button_get
+                0x00000000000008e0       0x18 lib/libbsp.a(board.o)
+                0x00000000000008e0                button_get
+ .text.led_blink
+                0x00000000000008f8       0x60 lib/libbsp.a(board.o)
+                0x00000000000008f8                led_blink
+ .text.serial_init
+                0x0000000000000958       0x50 lib/libbsp.a(serial.o)
+                0x0000000000000958                serial_init
+ .text.puts     0x00000000000009a8       0x28 lib/libbsp.a(serial.o)
+                0x00000000000009a8                puts
+ .text.gpio_in  0x00000000000009d0       0x18 lib/libbsp.a(gpio.o)
+                0x00000000000009d0                gpio_in
+ .text.gpio_out
+                0x00000000000009e8       0x38 lib/libbsp.a(gpio.o)
+                0x00000000000009e8                gpio_out
+ .text.gpio_set
+                0x0000000000000a20       0x1c lib/libbsp.a(gpio.o)
+                0x0000000000000a20                gpio_set
+ .text.gpio_clear
+                0x0000000000000a3c       0x1c lib/libbsp.a(gpio.o)
+                0x0000000000000a3c                gpio_clear
+ .text.gpio_read
+                0x0000000000000a58       0x20 lib/libbsp.a(gpio.o)
+                0x0000000000000a58                gpio_read
+ .text.gpio_inten
+                0x0000000000000a78       0x4c lib/libbsp.a(gpio.o)
+                0x0000000000000a78                gpio_inten
+ .text.GPIOTE_IRQHandler
+                0x0000000000000ac4       0x50 lib/libbsp.a(gpio.o)
+                0x0000000000000ac4                GPIOTE_IRQHandler
+ .text.sprintf  0x0000000000000b14      0x1ac lib/libbsp.a(lib.o)
+                0x0000000000000b14                sprintf
+ .text.audio_init
+                0x0000000000000cc0       0x38 lib/libbsp.a(audio.o)
+                0x0000000000000cc0                audio_init
+ .text.audio_beep
+                0x0000000000000cf8       0x10 lib/libbsp.a(audio.o)
+                0x0000000000000cf8                audio_beep
+ .text.audio_sweep
+                0x0000000000000d08       0x38 lib/libbsp.a(audio.o)
+                0x0000000000000d08                audio_sweep
+ .text.SysTickHandler
+                0x0000000000000d40       0x28 lib/libbsp.a(timer.o)
+                0x0000000000000d40                SysTickHandler
+ .text.timer_init
+                0x0000000000000d68       0x28 lib/libbsp.a(timer.o)
+                0x0000000000000d68                timer_init
+ .text.timer_start
+                0x0000000000000d90       0x20 lib/libbsp.a(timer.o)
+                0x0000000000000d90                timer_start
+ .text.timer_stop
+                0x0000000000000db0       0x14 lib/libbsp.a(timer.o)
+                0x0000000000000db0                timer_stop
+ .text.pwm_init
+                0x0000000000000dc4       0x18 lib/libbsp.a(pwm.o)
+                0x0000000000000dc4                pwm_init
+ .text.pwm_out  0x0000000000000ddc       0x90 lib/libbsp.a(pwm.o)
+                0x0000000000000ddc                pwm_out
+ .text.adc_init
+                0x0000000000000e6c       0x34 lib/libbsp.a(adc.o)
+                0x0000000000000e6c                adc_init
+ *(.rodata*)
+ .rodata.main.str1.4
+                0x0000000000000ea0       0xa9 main.o
+ *fill*         0x0000000000000f49        0x3 
+ .rodata.btn_list
+                0x0000000000000f4c        0x2 lib/libbsp.a(board.o)
+ *fill*         0x0000000000000f4e        0x2 
+ .rodata.led_cols
+                0x0000000000000f50        0x5 lib/libbsp.a(board.o)
+                0x0000000000000f50                led_cols
+ *fill*         0x0000000000000f55        0x3 
+ .rodata.led_rows
+                0x0000000000000f58        0x5 lib/libbsp.a(board.o)
+                0x0000000000000f58                led_rows
+ *fill*         0x0000000000000f5d        0x3 
+ .rodata._do_print.str1.4
+                0x0000000000000f60       0x11 lib/libbsp.a(lib.o)
+                0x0000000000000f74                . = ALIGN (0x4)
+ *fill*         0x0000000000000f71        0x3 
+                0x0000000000000f74                __etext = .
+
+.glue_7         0x0000000000000f74        0x0
+ .glue_7        0x0000000000000f74        0x0 linker stubs
+
+.glue_7t        0x0000000000000f74        0x0
+ .glue_7t       0x0000000000000f74        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000f74        0x0
+ .vfp11_veneer  0x0000000000000f74        0x0 linker stubs
+
+.v4_bx          0x0000000000000f74        0x0
+ .v4_bx         0x0000000000000f74        0x0 linker stubs
+
+.iplt           0x0000000000000f74        0x0
+ .iplt          0x0000000000000f74        0x0 main.o
+
+.rel.dyn        0x0000000000000f74        0x0
+ .rel.iplt      0x0000000000000f74        0x0 main.o
+
+.data           0x0000000020000000       0x2c load address 0x0000000000000f74
+                0x0000000000000f74                __data_load__ = LOADADDR (.data)
+                0x0000000020000000                __data_start__ = .
+                0x0000000020000000                . = ALIGN (0x4)
+ *(.data*)
+ .data.level    0x0000000020000000        0x4 main.o
+                0x0000000020000000                level
+ .data.x1       0x0000000020000004        0x4 main.o
+                0x0000000020000004                x1
+ .data.y        0x0000000020000008        0x4 main.o
+                0x0000000020000008                y
+ .data.x        0x000000002000000c        0x4 main.o
+                0x000000002000000c                x
+ .data.frame_buffer
+                0x0000000020000010       0x19 main.o
+                0x0000000020000010                frame_buffer
+                0x000000002000002c                . = ALIGN (0x4)
+ *fill*         0x0000000020000029        0x3 
+                0x000000002000002c                __data_end__ = .
+
+.igot.plt       0x000000002000002c        0x0 load address 0x0000000000000fa0
+ .igot.plt      0x000000002000002c        0x0 main.o
+
+.bss            0x000000002000002c       0x9c load address 0x0000000000000fa0
+                0x000000002000002c                __bss_start__ = .
+                0x000000002000002c                . = ALIGN (0x4)
+ *(.bss*)
+ .bss.prev_counter.0
+                0x000000002000002c        0x4 main.o
+ .bss.b1p       0x0000000020000030        0x4 main.o
+                0x0000000020000030                b1p
+ .bss.b0p       0x0000000020000034        0x4 main.o
+                0x0000000020000034                b0p
+ .bss.b1d       0x0000000020000038        0x4 main.o
+                0x0000000020000038                b1d
+ .bss.b0d       0x000000002000003c        0x4 main.o
+                0x000000002000003c                b0d
+ .bss.row       0x0000000020000040        0x4 main.o
+                0x0000000020000040                row
+ .bss.y1        0x0000000020000044        0x4 main.o
+                0x0000000020000044                y1
+ .bss.SystemCoreClock
+                0x0000000020000048        0x4 lib/libbsp.a(system.o)
+                0x0000000020000048                SystemCoreClock
+ .bss.gpio_irq_event_counters
+                0x000000002000004c       0x20 lib/libbsp.a(gpio.o)
+                0x000000002000004c                gpio_irq_event_counters
+ .bss.gpio_irq_counter
+                0x000000002000006c        0x4 lib/libbsp.a(gpio.o)
+                0x000000002000006c                gpio_irq_counter
+ .bss.event_callbacks
+                0x0000000020000070       0x20 lib/libbsp.a(gpio.o)
+                0x0000000020000070                event_callbacks
+ .bss.duty_cycle
+                0x0000000020000090        0x4 lib/libbsp.a(audio.o)
+ .bss.timers    0x0000000020000094       0x30 lib/libbsp.a(timer.o)
+                0x0000000020000094                timers
+ .bss.s_sequence
+                0x00000000200000c4        0x4 lib/libbsp.a(pwm.o)
+ *(COMMON)
+                0x00000000200000c8                . = ALIGN (0x4)
+                0x00000000200000c8                __bss_end__ = .
+
+.heap           0x0000000000000000        0x0
+                0x0000000000000000                __heap_start__ = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.heap*)
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __heap_end__ = .
+
+.stack          0x00000000200000c8     0x2000 load address 0x000000000000103c
+                0x00000000200000c8                __stack_start__ = .
+                0x00000000200000c8                . = ALIGN (0x4)
+                0x00000000200020c8                __stack_size__ = 0x2000
+                0x0000000000002000                . = (. + __stack_size__)
+ *fill*         0x00000000200000c8     0x2000 
+                0x00000000200020c8                . = ALIGN (0x4)
+                0x00000000200020c8                __stack_end__ = .
+LOAD main.o
+LOAD lib/libbsp.a
+LOAD /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /opt/arm-gcc/arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /opt/arm-gcc/lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a
+OUTPUT(MICROBIT.out elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x4b57
+ .debug_info    0x0000000000000000      0x8fe main.o
+ .debug_info    0x00000000000008fe      0x2c6 lib/libbsp.a(startup.o)
+ .debug_info    0x0000000000000bc4       0x75 lib/libbsp.a(system.o)
+ .debug_info    0x0000000000000c39     0x12d7 lib/libbsp.a(board.o)
+ .debug_info    0x0000000000001f10      0x29d lib/libbsp.a(serial.o)
+ .debug_info    0x00000000000021ad      0x322 lib/libbsp.a(gpio.o)
+ .debug_info    0x00000000000024cf     0x1ad7 lib/libbsp.a(lib.o)
+ .debug_info    0x0000000000003fa6      0x6f9 lib/libbsp.a(audio.o)
+ .debug_info    0x000000000000469f      0x1b4 lib/libbsp.a(timer.o)
+ .debug_info    0x0000000000004853      0x165 lib/libbsp.a(pwm.o)
+ .debug_info    0x00000000000049b8      0x19f lib/libbsp.a(adc.o)
+
+.debug_abbrev   0x0000000000000000     0x134f
+ .debug_abbrev  0x0000000000000000      0x292 main.o
+ .debug_abbrev  0x0000000000000292      0x1c4 lib/libbsp.a(startup.o)
+ .debug_abbrev  0x0000000000000456       0x74 lib/libbsp.a(system.o)
+ .debug_abbrev  0x00000000000004ca      0x2be lib/libbsp.a(board.o)
+ .debug_abbrev  0x0000000000000788      0x183 lib/libbsp.a(serial.o)
+ .debug_abbrev  0x000000000000090b      0x15d lib/libbsp.a(gpio.o)
+ .debug_abbrev  0x0000000000000a68      0x36f lib/libbsp.a(lib.o)
+ .debug_abbrev  0x0000000000000dd7      0x26c lib/libbsp.a(audio.o)
+ .debug_abbrev  0x0000000000001043      0x115 lib/libbsp.a(timer.o)
+ .debug_abbrev  0x0000000000001158       0xcf lib/libbsp.a(pwm.o)
+ .debug_abbrev  0x0000000000001227      0x128 lib/libbsp.a(adc.o)
+
+.debug_loclists
+                0x0000000000000000     0x22ea
+ .debug_loclists
+                0x0000000000000000       0xa0 main.o
+ .debug_loclists
+                0x00000000000000a0       0x38 lib/libbsp.a(startup.o)
+ .debug_loclists
+                0x00000000000000d8      0x3f6 lib/libbsp.a(board.o)
+ .debug_loclists
+                0x00000000000004ce      0x147 lib/libbsp.a(serial.o)
+ .debug_loclists
+                0x0000000000000615      0x194 lib/libbsp.a(gpio.o)
+ .debug_loclists
+                0x00000000000007a9     0x15f3 lib/libbsp.a(lib.o)
+ .debug_loclists
+                0x0000000000001d9c      0x3e2 lib/libbsp.a(audio.o)
+ .debug_loclists
+                0x000000000000217e       0x74 lib/libbsp.a(timer.o)
+ .debug_loclists
+                0x00000000000021f2       0xb4 lib/libbsp.a(pwm.o)
+ .debug_loclists
+                0x00000000000022a6       0x44 lib/libbsp.a(adc.o)
+
+.debug_aranges  0x0000000000000000      0x328
+ .debug_aranges
+                0x0000000000000000       0x60 main.o
+ .debug_aranges
+                0x0000000000000060       0x50 lib/libbsp.a(startup.o)
+ .debug_aranges
+                0x00000000000000b0       0x20 lib/libbsp.a(system.o)
+ .debug_aranges
+                0x00000000000000d0       0x80 lib/libbsp.a(board.o)
+ .debug_aranges
+                0x0000000000000150       0x50 lib/libbsp.a(serial.o)
+ .debug_aranges
+                0x00000000000001a0       0x58 lib/libbsp.a(gpio.o)
+ .debug_aranges
+                0x00000000000001f8       0x50 lib/libbsp.a(lib.o)
+ .debug_aranges
+                0x0000000000000248       0x50 lib/libbsp.a(audio.o)
+ .debug_aranges
+                0x0000000000000298       0x38 lib/libbsp.a(timer.o)
+ .debug_aranges
+                0x00000000000002d0       0x28 lib/libbsp.a(pwm.o)
+ .debug_aranges
+                0x00000000000002f8       0x30 lib/libbsp.a(adc.o)
+
+.debug_rnglists
+                0x0000000000000000      0x587
+ .debug_rnglists
+                0x0000000000000000       0x84 main.o
+ .debug_rnglists
+                0x0000000000000084       0x4a lib/libbsp.a(startup.o)
+ .debug_rnglists
+                0x00000000000000ce       0x22 lib/libbsp.a(system.o)
+ .debug_rnglists
+                0x00000000000000f0       0xad lib/libbsp.a(board.o)
+ .debug_rnglists
+                0x000000000000019d       0x55 lib/libbsp.a(serial.o)
+ .debug_rnglists
+                0x00000000000001f2       0x3d lib/libbsp.a(gpio.o)
+ .debug_rnglists
+                0x000000000000022f      0x270 lib/libbsp.a(lib.o)
+ .debug_rnglists
+                0x000000000000049f       0x7e lib/libbsp.a(audio.o)
+ .debug_rnglists
+                0x000000000000051d       0x25 lib/libbsp.a(timer.o)
+ .debug_rnglists
+                0x0000000000000542       0x1a lib/libbsp.a(pwm.o)
+ .debug_rnglists
+                0x000000000000055c       0x2b lib/libbsp.a(adc.o)
+
+.debug_macro    0x0000000000000000     0x2854
+ .debug_macro   0x0000000000000000      0x1d4 main.o
+ .debug_macro   0x00000000000001d4      0xaa2 main.o
+ .debug_macro   0x0000000000000c76       0x22 main.o
+ .debug_macro   0x0000000000000c98       0x75 main.o
+ .debug_macro   0x0000000000000d0d       0x2a main.o
+ .debug_macro   0x0000000000000d37       0x94 main.o
+ .debug_macro   0x0000000000000dcb       0x3c main.o
+ .debug_macro   0x0000000000000e07       0x34 main.o
+ .debug_macro   0x0000000000000e3b      0x189 main.o
+ .debug_macro   0x0000000000000fc4       0x16 main.o
+ .debug_macro   0x0000000000000fda       0x43 main.o
+ .debug_macro   0x000000000000101d       0x57 main.o
+ .debug_macro   0x0000000000001074       0x34 main.o
+ .debug_macro   0x00000000000010a8       0x10 main.o
+ .debug_macro   0x00000000000010b8       0x58 main.o
+ .debug_macro   0x0000000000001110      0x1de main.o
+ .debug_macro   0x00000000000012ee      0x369 main.o
+ .debug_macro   0x0000000000001657       0x10 main.o
+ .debug_macro   0x0000000000001667       0x35 main.o
+ .debug_macro   0x000000000000169c      0x103 main.o
+ .debug_macro   0x000000000000179f       0x6a main.o
+ .debug_macro   0x0000000000001809      0x1df main.o
+ .debug_macro   0x00000000000019e8       0x16 main.o
+ .debug_macro   0x00000000000019fe       0x16 main.o
+ .debug_macro   0x0000000000001a14       0x29 main.o
+ .debug_macro   0x0000000000001a3d       0x3a main.o
+ .debug_macro   0x0000000000001a77       0x10 main.o
+ .debug_macro   0x0000000000001a87       0x88 main.o
+ .debug_macro   0x0000000000001b0f       0x58 main.o
+ .debug_macro   0x0000000000001b67       0x6a lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000001bd1       0x8e lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000001c5f       0x51 lib/libbsp.a(startup.o)
+ .debug_macro   0x0000000000001cb0       0x29 lib/libbsp.a(system.o)
+ .debug_macro   0x0000000000001cd9       0xbf lib/libbsp.a(board.o)
+ .debug_macro   0x0000000000001d98       0xe8 lib/libbsp.a(serial.o)
+ .debug_macro   0x0000000000001e80      0x125 lib/libbsp.a(gpio.o)
+ .debug_macro   0x0000000000001fa5       0x31 lib/libbsp.a(lib.o)
+ .debug_macro   0x0000000000001fd6      0x17d lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000002153       0x7b lib/libbsp.a(audio.o)
+ .debug_macro   0x00000000000021ce      0x19b lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000002369      0x119 lib/libbsp.a(audio.o)
+ .debug_macro   0x0000000000002482       0x91 lib/libbsp.a(timer.o)
+ .debug_macro   0x0000000000002513      0x192 lib/libbsp.a(pwm.o)
+ .debug_macro   0x00000000000026a5      0x1af lib/libbsp.a(adc.o)
+
+.debug_line     0x0000000000000000     0x4058
+ .debug_line    0x0000000000000000      0x7e8 main.o
+ .debug_line    0x00000000000007e8      0x2f6 lib/libbsp.a(startup.o)
+ .debug_line    0x0000000000000ade       0x77 lib/libbsp.a(system.o)
+ .debug_line    0x0000000000000b55      0xc8b lib/libbsp.a(board.o)
+ .debug_line    0x00000000000017e0      0x42a lib/libbsp.a(serial.o)
+ .debug_line    0x0000000000001c0a      0x472 lib/libbsp.a(gpio.o)
+ .debug_line    0x000000000000207c      0xf23 lib/libbsp.a(lib.o)
+ .debug_line    0x0000000000002f9f      0x66a lib/libbsp.a(audio.o)
+ .debug_line    0x0000000000003609      0x2f1 lib/libbsp.a(timer.o)
+ .debug_line    0x00000000000038fa      0x3ad lib/libbsp.a(pwm.o)
+ .debug_line    0x0000000000003ca7      0x3b1 lib/libbsp.a(adc.o)
+
+.debug_str      0x0000000000000000     0x8f62
+ .debug_str     0x0000000000000000     0x6fe8 main.o
+                                       0x720d (size before relaxing)
+ .debug_str     0x0000000000006fe8      0x156 lib/libbsp.a(startup.o)
+                                       0x3e1a (size before relaxing)
+ .debug_str     0x000000000000713e       0xc5 lib/libbsp.a(system.o)
+                                       0x2eab (size before relaxing)
+ .debug_str     0x0000000000007203       0xc7 lib/libbsp.a(board.o)
+                                       0x413a (size before relaxing)
+ .debug_str     0x00000000000072ca      0x248 lib/libbsp.a(serial.o)
+                                       0x4036 (size before relaxing)
+ .debug_str     0x0000000000007512      0x213 lib/libbsp.a(gpio.o)
+                                       0x42b2 (size before relaxing)
+ .debug_str     0x0000000000007725       0x84 lib/libbsp.a(lib.o)
+                                       0x2fd5 (size before relaxing)
+ .debug_str     0x00000000000077a9     0x1219 lib/libbsp.a(audio.o)
+                                       0x7fde (size before relaxing)
+ .debug_str     0x00000000000089c2       0xe3 lib/libbsp.a(timer.o)
+                                       0x3e27 (size before relaxing)
+ .debug_str     0x0000000000008aa5      0x22c lib/libbsp.a(pwm.o)
+                                       0x6e2a (size before relaxing)
+ .debug_str     0x0000000000008cd1      0x291 lib/libbsp.a(adc.o)
+                                       0x6e94 (size before relaxing)
+
+.comment        0x0000000000000000       0x45
+ .comment       0x0000000000000000       0x45 main.o
+                                         0x46 (size before relaxing)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(startup.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(system.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(board.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(serial.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(gpio.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(lib.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(audio.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(timer.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(pwm.o)
+ .comment       0x0000000000000045       0x46 lib/libbsp.a(adc.o)
+
+.ARM.attributes
+                0x0000000000000000       0x34
+ .ARM.attributes
+                0x0000000000000000       0x34 main.o
+ .ARM.attributes
+                0x0000000000000034       0x34 lib/libbsp.a(startup.o)
+ .ARM.attributes
+                0x0000000000000068       0x34 lib/libbsp.a(system.o)
+ .ARM.attributes
+                0x000000000000009c       0x34 lib/libbsp.a(board.o)
+ .ARM.attributes
+                0x00000000000000d0       0x34 lib/libbsp.a(serial.o)
+ .ARM.attributes
+                0x0000000000000104       0x34 lib/libbsp.a(gpio.o)
+ .ARM.attributes
+                0x0000000000000138       0x34 lib/libbsp.a(lib.o)
+ .ARM.attributes
+                0x000000000000016c       0x34 lib/libbsp.a(audio.o)
+ .ARM.attributes
+                0x00000000000001a0       0x34 lib/libbsp.a(timer.o)
+ .ARM.attributes
+                0x00000000000001d4       0x34 lib/libbsp.a(pwm.o)
+ .ARM.attributes
+                0x0000000000000208       0x34 lib/libbsp.a(adc.o)
+
+.debug_frame    0x0000000000000000      0x7f0
+ .debug_frame   0x0000000000000000      0x14c main.o
+ .debug_frame   0x000000000000014c       0x88 lib/libbsp.a(startup.o)
+ .debug_frame   0x00000000000001d4       0x2c lib/libbsp.a(system.o)
+ .debug_frame   0x0000000000000200      0x188 lib/libbsp.a(board.o)
+ .debug_frame   0x0000000000000388       0x9c lib/libbsp.a(serial.o)
+ .debug_frame   0x0000000000000424       0xb0 lib/libbsp.a(gpio.o)
+ .debug_frame   0x00000000000004d4      0x13c lib/libbsp.a(lib.o)
+ .debug_frame   0x0000000000000610       0xdc lib/libbsp.a(audio.o)
+ .debug_frame   0x00000000000006ec       0x74 lib/libbsp.a(timer.o)
+ .debug_frame   0x0000000000000760       0x3c lib/libbsp.a(pwm.o)
+ .debug_frame   0x000000000000079c       0x54 lib/libbsp.a(adc.o)
